@@ -1,38 +1,124 @@
-.App {
+/* Position the navbar container inside the image */
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  text-emphasis: center;
+}
+
+/* Navbar links */
+.nav-item {
+  float: left;
+  font-weight: bold;
   text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item:hover {
+  text-decoration: underline;
+  color: rgb(255, 102, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  border: none;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 24px;
+  background-image: linear-gradient(90deg, #f96b24, #ff9100);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.e-btn {
+  margin-left: 150px;
+  border: none;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 80px 10px 80px;
+  background-image: linear-gradient(90deg, #f96b24, #ff9100);
+}
+
+.e-btn a {
+  color: white;
+  text-decoration: none;
+
+}
+
+
+
+.login {
+  border: none;
+  text-align: center;
+  border-radius: 6px;
+  margin-right: 20px;
+  padding: 5px 24px;
+  background-image: linear-gradient(90deg, #ffffff, #ffffff);
+}
+
+.login a {
+  color: rgb(255, 123, 0);
+  text-decoration: none;
+
+}
+
+.conatiner-fluid {
+  /* The image used */
+  background-image: url("../public/images/bg2.jpg");
+
+  min-height: 550px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+
+}
+
+#box{
+  padding: 30px 0 30px 0;
+  text-align: center;
+  height: auto;
+  background-image: linear-gradient(90deg, #0a1aac, #393bc2d5);
+}
+
+#box h2{
+  color: white;
+  font-size: 24px;
+}
+#box h6{
+  text-align: center;
+  color: white;
+  margin: 0 10px 0 10px;
+}
+
+#social{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  left: 850px;
+  top: -160px;
+  font-size: 25px;
+  padding: 10px;
+  margin: 5px;
+  
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
