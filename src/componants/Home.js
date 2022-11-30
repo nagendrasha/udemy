@@ -6,7 +6,7 @@ export default function Home() {
             <div className="conatiner-fluid">
                 <div className="row">
                     <div className="col-sm-6">
-                        <h1>Be A Coading Ninja</h1>
+                        <h1>Be A Coder Ninja</h1>
                         <p className="para">50,000 Students from 300 colleges have trusted us</p>
                         <button className="e-btn" type="submit"><a href="#">Explore Our Program</a></button>
                     </div>
